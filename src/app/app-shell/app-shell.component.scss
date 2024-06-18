@@ -1,5 +1,5 @@
 /* HTML: <div class="loader"></div> */
-.container-fluid{
+.x{
 
     position: absolute;
     top:0;
@@ -7,7 +7,7 @@
     right: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 10000000000;
+    z-index: 10000000000 !important;
     background-color: white;
     display: flex;
     justify-content: center;

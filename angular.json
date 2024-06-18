@@ -32,12 +32,10 @@
             "styles": [
               "src/styles.scss",
               "node_modules/aos/dist/aos.css"
-
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-               "node_modules/aos/dist/aos.js"
-
+              "node_modules/aos/dist/aos.js"
             ],
             "server": "src/main.server.ts",
             "prerender": true,
@@ -106,14 +104,27 @@
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/aos/dist/aos.css"
-
-
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/aos/dist/aos.js"
-          ]
+            ]
           }
+        },
+        "app-shell": {
+          "builder": "@angular-devkit/build-angular:app-shell",
+          "options": {
+            "browserTarget": "portofolio:build:production",
+            "serverTarget": "portofolio:server:production",
+            "route": "shell"
+          },
+          "configurations": {
+            "development": {
+              "browserTarget": "portofolio:build:development",
+              "serverTarget": "portofolio:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
