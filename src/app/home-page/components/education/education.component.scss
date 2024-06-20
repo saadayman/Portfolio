@@ -70,3 +70,11 @@
   h1{
     color:white;
   }
+
+
+  :host-context([dir="rtl"]) .timeline-date--right {
+    text-align: left !important;
+  }
+  :host-context([dir="rtl"]) .timeline-date {
+    text-align: right;
+  }

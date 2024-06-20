@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/alert/alert.ts</context>
+          <context context-type="linenumber">66,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION" equiv-text="private _pause$"/> of <x id="INTERPOLATION_1" equiv-text="(false);
+	priva"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">146,149</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">163,167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">184,187</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">91,93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">290,291</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">302</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">315,317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">325,326</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">346,348</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">361</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">378,381</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">398,399</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="mated;
+
+	/**"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/progressbar/progressbar.ts</context>
+          <context context-type="linenumber">64,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">233,235</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">255</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">271</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">290</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">301,305</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">314,317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">338,341</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">358,359</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">375,376</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">394,396</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">417,421</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">434</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/toast/toast.ts</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1737753151350322492" datatype="html">
+        <source><x id="PH" equiv-text="this.title_name"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1726363342938046830" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3398353192845179101" datatype="html">
+        <source>Experience</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9073588991939980686" datatype="html">
+        <source> Education </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4342625008558026850" datatype="html">
+        <source>Skills</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7091571651222742304" datatype="html">
+        <source>Projects</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8020402390620783618" datatype="html">
+        <source>Education</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/education/education.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6548582138003581623" datatype="html">
+        <source>11/2017 to 01/2022</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/education/education.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8642528018492434679" datatype="html">
+        <source>Bachelor of Computer engineering </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/education/education.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6237858254435256407" datatype="html">
+        <source> Hashemite university </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/education/education.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7168157290277963922" datatype="html">
+        <source>GPA: 2.8 - 4.0</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/education/education.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3643311914660189432" datatype="html">
+        <source> What I have done so far </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1185447018403269777" datatype="html">
+        <source>Work Experience.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5444551498842881065" datatype="html">
+        <source>08/2022 to Current</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1009524133686071456" datatype="html">
+        <source>Software Developer </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="976173351216957881" datatype="html">
+        <source> Nixpend Company </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1059531636622024594" datatype="html">
+        <source> Successfully integrated the National Platform for Health Information Exchange System (NPHIES) APIs into our system, meeting rigorous compliance standards and obtaining the necessary certification for the company. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">21,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7670242402547739446" datatype="html">
+        <source> Developed the official website for the company, creating an engaging online presence that showcases services and products. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7855546957007600044" datatype="html">
+        <source> Developed APIs for various modules within the application, fostering a
+cohesive and interconnected system. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="74409629521908011" datatype="html">
+        <source>Web Developer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1113220641314945561" datatype="html">
+        <source> Eureka Tech Academy </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5338303194868441277" datatype="html">
+        <source>Conducted interactive web development classes for students, focusing on building a strong foundation in programming</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3098989954829378216" datatype="html">
+        <source>Instructed students on the fundamentals of web development, covering HTML, CSS, and JavaScript, and progressed to more advanced topics</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6551512825620621891" datatype="html">
+        <source>Taught version control using Git, emphasizing best practices for collaborative coding and project management </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4610900458976583332" datatype="html">
+        <source>Guided students in deploying their web applications on platforms such as GitHub, Netlify, or Heroku </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6865573092294229919" datatype="html">
+        <source>Introduced backend development using Node.js and Express, emphasizing integration with MongoDB using Mongoose and managing database clusters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7698385773116440293" datatype="html">
+        <source>Instructed students on front-end frameworks including Angular, React, and Vue.js, providing a comprehensive understanding of modern web development </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">55,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1170634462477247664" datatype="html">
+        <source>Created and administered examinations to assess students&apos; understanding of the material and track their progress</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6893880467785218696" datatype="html">
+        <source>04/2022 to 07/2022</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/experience-section/experience-section.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5874803180905109430" datatype="html">
+        <source>Saed Ayman</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/intro-component/intro-component.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7408251974994843663" datatype="html">
+        <source>Passionate computer engineer with a strong background in web development, I excel in self-directed
+learning, utilizing free resources like YouTube and official documentation. My project-based approach has
+sharpened my problem-solving and debugging skills. I prioritize deep understanding over certification,
+which has enabled me to effectively teach web development. Recognized in every job for my quick
+adaptability and ability to master new technologies from documentation, I thrive in dynamic
+environments and continuously seek practical learning opportunities. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/intro-component/intro-component.component.html</context>
+          <context context-type="linenumber">6,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6883107154472877317" datatype="html">
+        <source>Nixpend - Official Website</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="178476801440267319" datatype="html">
+        <source>Nixpend.com is the official profile website for Nixpend, showcasing our company&apos;s mission, services, and innovative solutions in Healthcare management.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5886792202999625261" datatype="html">
+        <source>Demo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">65,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5366777113763642490" datatype="html">
+        <source>Ehata - Official Website</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3232396908124363546" datatype="html">
+        <source>Ehata.com is the official profile website for Ehata, showcasing thier company&apos;s mission, services, and innovative solutions.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7981004588158259285" datatype="html">
+        <source>Dento Website</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7566957841185830357" datatype="html">
+        <source>The Dento Website is a demo project designed to showcase a user-friendly frontend interface for booking appointments with dental doctors.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page/components/projects/projects.component.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -14,12 +14,14 @@ import { Title } from '@angular/platform-browser';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
+  public title_name= 'Saed Ayman'
   constructor(public title:Title){
+    
     afterNextRender(()=>{
       AOS.init();//AOS - 2
       // AOS.refresh();//refresh method is called on window resize and so on, as it doesn't require to build new store with AOS elements and should be as light as possible.
     })
-  this.title.setTitle('Saed Ayman')    
+  this.title.setTitle($localize `${this.title_name}`)    
   }
 
 

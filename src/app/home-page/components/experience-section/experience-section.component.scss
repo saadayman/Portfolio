@@ -7,6 +7,7 @@
     grid-template-columns:1fr 3px 1fr;
     font-family: "Fira Sans", sans-serif;
     color: #fcfcfc;
+    // direction: ltr !important;
   }
   
   .timeline-component {
@@ -85,4 +86,13 @@
     .timeline-date{
       text-align: center;
     }
+  }
+
+
+
+  :host-context([dir="rtl"]) .timeline-date--right {
+    text-align: left !important;
+  }
+  :host-context([dir="rtl"]) .timeline-date {
+    text-align: right;
   }
