@@ -10,7 +10,7 @@
 @import 'bootstrap/scss/bootstrap';
 body{
     background-color: #080808;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
     overflow-x: hidden;
     position: relative;
     padding: 0;
@@ -19,8 +19,8 @@ body{
 
 
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', serif;
+  h1, h2, h3, h4, h5, h6 ,p{
+    font-family: 'Roboto', serif ;
   }
 .custom-purple-intro-button{
     background-color: #0A58CA;

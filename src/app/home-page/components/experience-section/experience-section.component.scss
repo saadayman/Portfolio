@@ -9,6 +9,11 @@
   color: #fcfcfc;
   // direction: ltr !important;
 }
+ul{
+  li{
+      text-align: left !important;
+  }
+}
 
 .timeline-component {
   margin: 0 20px 20px 20px;
@@ -95,4 +100,9 @@ h1{
 }
 :host-context([dir="rtl"]) .timeline-date {
   text-align: right;
+}
+:host-context([dir="rtl"]) ul {
+  li{
+    text-align: right !important;
+  }
 }
