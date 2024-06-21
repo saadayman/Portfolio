@@ -1,73 +1,43 @@
 <section class="experience-section">
-    <div class="container text-center">
-        <h5>
-            What I have done so far
-        </h5>
-        <h1 class="white-color">Work Experience.</h1>
-        <div class="timeline" data-aos="zoom-in">
-            <div class="timeline-component"  data-aos="fade-up-right">
-              <div class="timeline-date timeline-date--right">08/2022 to Current</div>
-            </div>
-            <div class="timeline-middle">
-              <div class="timeline-point"></div>
-            </div>
-            <div class="timeline-component timeline-component--bg "  data-aos="fade-up-left">
-              <h2 class="timeline-title">Software Developer </h2>
-              <p class="company-name">
-                Nixpend Company
-              </p>
-                    <ul>
-                        <li>
-                            Successfully integrated the National Platform for Health Information
-    Exchange System (NPHIES) APIs into our system, meeting rigorous
-    compliance standards and obtaining the necessary certification for the
-    company.
-                        </li>
-                        <li>
-                            Developed the official website for the company, creating
-                            an engaging online presence that showcases services and products.
-                        </li>
-                        <li>
-                            Developed APIs for various modules within the application, fostering a
-cohesive and interconnected system.
-                        </li>
-                    </ul>
-
-            </div>
-            <div class="timeline-component timeline-component--bg" data-aos="fade-up-right">
-              <h2 class="timeline-title">Web Developer</h2>
-              <p class="company-name">
-                Eureka Tech Academy
-              </p>
-              <ul>
-                <li>Conducted interactive web development classes for students, focusing on
-                    building a strong foundation in programming</li>
-                <li>Instructed students on the fundamentals of web development, covering
-                    HTML, CSS, and JavaScript, and progressed to more advanced topics</li>
-                <li>Taught version control using Git, emphasizing best practices for
-                    collaborative coding and project management </li>
-                <li>Guided students in deploying their web applications on platforms such as
-                    GitHub, Netlify, or Heroku
-                    </li>
-                <li>Introduced backend development using Node.js and Express, emphasizing
-                    integration with MongoDB using Mongoose and managing database
-                    clusters</li>
-                <li>Instructed students on front-end frameworks including Angular, React, and
-                    Vue.js, providing a comprehensive understanding of modern web
-                    development
-                    </li>
-                <li>Created and administered examinations to assess students' understanding
-                    of the material and track their progress</li>
-              </ul>
-            </div>
-            <div class="timeline-middle">
-              <div class="timeline-point"></div>
-              <div class="timeline-point timeline-point-bottom"></div>  
-            </div>
-            <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date">04/2022 to 07/2022</div>
-            </div>
-
+  <div class="container text-center">
+      <h5>{{ 'EXPERIENCE.INTRO' | translate }}</h5>
+      <h1 class="white-color">{{ 'EXPERIENCE.TITLE' | translate }}</h1>
+      <div class="timeline" data-aos="zoom-in">
+          <div class="timeline-component"  data-aos="fade-up-right">
+            <div class="timeline-date timeline-date--right">{{ 'EXPERIENCE.NIXPEND.DATES' | translate }}</div>
           </div>
-    </div>
+          <div class="timeline-middle">
+            <div class="timeline-point"></div>
+          </div>
+          <div class="timeline-component timeline-component--bg "  data-aos="fade-up-left">
+            <h2 class="timeline-title fs-6 fs-sm-5 fs-md-1 fs-lg-1 fs-xl-1"><i class="fa-solid fa-laptop fa-bounce mx-2"></i> {{ 'EXPERIENCE.NIXPEND.TITLE' | translate }}</h2>
+            <p class="company-name"><i class="fa-solid fa-building mx-2"></i> {{ 'EXPERIENCE.NIXPEND.COMPANY' | translate }}</p>
+            <ul class="text-align-left">
+              <li>{{ 'EXPERIENCE.NIXPEND.POINT1' | translate }}</li>
+              <li>{{ 'EXPERIENCE.NIXPEND.POINT2' | translate }}</li>
+              <li>{{ 'EXPERIENCE.NIXPEND.POINT3' | translate }}</li>
+            </ul>
+          </div>
+          <div class="timeline-component timeline-component--bg" data-aos="fade-up-right">
+            <h2 class="timeline-title fs-6 fs-sm-5 fs-md-1 fs-lg-1 fs-xl-1"><i class="fa-solid fa-person-chalkboard mx-2 fa-bounce"></i> {{ 'EXPERIENCE.EUREKA.TITLE' | translate }}</h2>
+            <p class="company-name"><i class="fa-solid fa-school mx-2"></i>  {{ 'EXPERIENCE.EUREKA.COMPANY' | translate }}</p>
+            <ul class="text-align-left">
+              <li>{{ 'EXPERIENCE.EUREKA.POINT1' | translate }}</li>
+              <li>{{ 'EXPERIENCE.EUREKA.POINT2' | translate }}</li>
+              <li>{{ 'EXPERIENCE.EUREKA.POINT3' | translate }}</li>
+              <li>{{ 'EXPERIENCE.EUREKA.POINT4' | translate }}</li>
+              <li>{{ 'EXPERIENCE.EUREKA.POINT5' | translate }}</li>
+              <li>{{ 'EXPERIENCE.EUREKA.POINT6' | translate }}</li>
+              <li>{{ 'EXPERIENCE.EUREKA.POINT7' | translate }}</li>
+            </ul>
+          </div>
+          <div class="timeline-middle">
+            <div class="timeline-point"></div>
+            <div class="timeline-point timeline-point-bottom"></div>  
+          </div>
+          <div class="timeline-component" data-aos="fade-up-left">
+            <div class="timeline-date">{{ 'EXPERIENCE.EUREKA.DATES' | translate }}</div>
+          </div>
+      </div>
+  </div>
 </section>

@@ -1,22 +1,19 @@
 <section class="experience-section">
-    <div class="container text-center">
-        <h1 class="white-color">Education</h1>
-        <div class="timeline" data-aos="zoom-in">
-            <div class="timeline-component"  data-aos="fade-up-right">
-              <div class="timeline-date timeline-date--right">11/2017 to 01/2022</div>
-            </div>
-            <div class="timeline-middle">
-              <div class="timeline-point"></div>
-              <div class="timeline-point timeline-point-bottom"></div>  
-
-            </div>
-            <div class="timeline-component timeline-component--bg"  data-aos="fade-up-left">
-              <h2 class="timeline-title">Bachelor of Computer engineering </h2>
-              <p class="company-name">
-                Hashemite university
-              </p>
-              <p>GPA: 2.8 - 4.0</p>
-            </div>
+  <div class="container text-center">
+      <h1 class="white-color">{{ 'EDUCATION.TITLE' | translate }}</h1>
+      <div class="timeline" data-aos="zoom-in">
+          <div class="timeline-component" data-aos="fade-up-right">
+            <div class="timeline-date timeline-date--right">{{ 'EDUCATION.DATES' | translate }}</div>
           </div>
-    </div>
+          <div class="timeline-middle">
+            <div class="timeline-point"></div>
+            <div class="timeline-point timeline-point-bottom"></div>  
+          </div>
+          <div class="timeline-component timeline-component--bg" data-aos="fade-up-left">
+            <h2 class="timeline-title fs-6 fs-sm-5 fs-md-1 fs-lg-1 fs-xl-1"><i class="fa-solid fa-user-graduate mx-2"></i> {{ 'EDUCATION.DEGREE' | translate }}</h2>
+            <p class="company-name"><i class="fa-solid fa-building-columns mx-2"></i> {{ 'EDUCATION.UNIVERSITY' | translate }}</p>
+            <p>{{ 'EDUCATION.GPA' | translate }}</p>
+          </div>
+        </div>
+  </div>
 </section>
