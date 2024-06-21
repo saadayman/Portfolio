@@ -1,0 +1,74 @@
+{
+    "PROJECTS": {
+      "TITLE": "Projects",
+      "NIXPEND": {
+        "TITLE": "Nixpend - Official Website",
+        "DESCRIPTION": "Nixpend.com is the official profile website for Nixpend, showcasing our company's mission, services, and innovative solutions in Healthcare management."
+      },
+      "EHATA": {
+        "TITLE": "Ehata - Official Website",
+        "DESCRIPTION": "Ehata.com is the official profile website for Ehata, showcasing their company's mission, services, and innovative solutions."
+      },
+      "DENTO": {
+        "TITLE": "Dento Website",
+        "DESCRIPTION": "The Dento Website is a demo project designed to showcase a user-friendly frontend interface for booking appointments with dental doctors."
+      },
+      "MONTANA": {
+        "TITLE": "Montana Website",
+        "DESCRIPTION": "The Montana Resort Booking Website is a demo project designed to showcase a user-friendly frontend interface for booking rooms at a luxurious resort."
+      },
+      "MYHOME": {
+        "TITLE": "myHome Website",
+        "DESCRIPTION": "The myHome Website is a demo project designed to showcase a comprehensive platform for listing homes for sale. This website features both frontend and backend functionality, providing a complete solution for users looking to buy or sell homes."
+      },
+      "DEMO": "Demo"
+    },
+    "EXPERIENCE": {
+    "INTRO": "What I have done so far",
+    "TITLE": "Work Experience",
+    "NIXPEND": {
+      "DATES": "08/2022 to Current",
+      "TITLE": "Software Developer",
+      "COMPANY": "Nixpend Company",
+      "POINT1": "Successfully integrated the National Platform for Health Information Exchange System (NPHIES) APIs into our system, meeting rigorous compliance standards and obtaining the necessary certification for the company.",
+      "POINT2": "Developed the official website for the company, creating an engaging online presence that showcases services and products.",
+      "POINT3": "Developed APIs for various modules within the application, fostering a cohesive and interconnected system."
+    },
+    "EUREKA": {
+      "DATES": "04/2022 to 07/2022",
+      "TITLE": "Web Developer",
+      "COMPANY": "Eureka Tech Academy",
+      "POINT1": "Conducted interactive web development classes for students, focusing on building a strong foundation in programming.",
+      "POINT2": "Instructed students on the fundamentals of web development, covering HTML, CSS, and JavaScript, and progressed to more advanced topics.",
+      "POINT3": "Taught version control using Git, emphasizing best practices for collaborative coding and project management.",
+      "POINT4": "Guided students in deploying their web applications on platforms such as GitHub, Netlify, or Heroku.",
+      "POINT5": "Introduced backend development using Node.js and Express, emphasizing integration with MongoDB using Mongoose and managing database clusters.",
+      "POINT6": "Instructed students on front-end frameworks including Angular, React, and Vue.js, providing a comprehensive understanding of modern web development.",
+      "POINT7": "Created and administered examinations to assess students' understanding of the material and track their progress."
+    }
+  },
+  "INTRO": {
+    "NAME": "Saed Ayman",
+    "DESCRIPTION": "Passionate computer engineer with a strong background in web development, I excel in self-directed learning, utilizing free resources like YouTube and official documentation. My project-based approach has sharpened my problem-solving and debugging skills. I prioritize deep understanding over certification, which has enabled me to effectively teach web development. Recognized in every job for my quick adaptability and ability to master new technologies from documentation, I thrive in dynamic environments and continuously seek practical learning opportunities."
+  },
+  "NAVBAR": {
+    "SWITCH_LANGUAGE": "العربية",
+    "BRAND": "Sayman",
+    "ABOUT": "About",
+    "EXPERIENCE": "Experience",
+    "EDUCATION": "Education",
+    "SKILLS": "Skills",
+    "PROJECTS": "Projects"
+  },
+  "EDUCATION": {
+    "TITLE": "Education",
+    "DATES": "11/2017 to 01/2022",
+    "DEGREE": "Bachelor of Computer Engineering",
+    "UNIVERSITY": "Hashemite University",
+    "GPA": "GPA: 2.8 - 4.0"
+  },
+  "SKILLS": {
+    "TITLE": "Skills"
+  }
+  }
+  
