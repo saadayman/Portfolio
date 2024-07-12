@@ -6,7 +6,7 @@ import * as AOS from 'aos';
 import { AppShellComponent } from './app-shell/app-shell.component';
 import { Title } from '@angular/platform-browser';
 import { TranslateService } from '@ngx-translate/core';
-import { LangDirectionService } from './globalServices/lang-direction.service';
+import { LangDirectionService } from './global/services/lang-direction.service';
 import { FooterComponent } from './footer/footer.component';
 
 @Component({

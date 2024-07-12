@@ -1,0 +1,29 @@
+<div class="toggle-container" [style.width.px]="this.width" [style.height.px]="this.height" [style.margin-right]="this.containerMarginRight">
+    <input
+      type="checkbox"
+      id="toggle"
+      class="toggle-input"
+      [checked]="isChecked"
+      (change)="onToggleChange($event)"
+    />
+    <label for="toggle" class="toggle-label" [ngStyle]="{
+      'background-color':isChecked?checkedColor:defaultColor
+    }">
+      <span class="toggle-circle" [ngStyle]="{'transform': isChecked ? 'translateX(' + (this.width - 34) + 'px)' : 'translateX(0)'}" [style.width.px]="circle_width" [style.height.px]="circle_height">
+        <i [class]="circleIconClass" [ngStyle]="{
+          'color':isChecked?iconCheckedColor:iconDefaultColor,
+          
+        }"></i>
+        <span
+        [ngStyle]="{
+            'color':isChecked?iconCheckedColor:iconDefaultColor
+          }"
+         class="toggle-circle--text">{{isChecked?checkedToggleCircleText:defaultToggleCircleText}}</span>
+      </span>
+      <span class="toggle-text" [ngStyle]="{
+        'color':isChecked?checkedTextColor:defaultTextColor,
+        'margin-left':isChecked?'0px':textMarginLeft
+      }">{{ isChecked?checkedToggleText:defaultToggleText }}</span>
+    </label>
+  </div>
+  

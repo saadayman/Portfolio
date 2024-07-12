@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { LangDirectionService } from '../globalServices/lang-direction.service';
+import { LangDirectionService } from '../global/services/lang-direction.service';
 
 @Component({
   selector: 'app-footer',

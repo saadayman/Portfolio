@@ -1,10 +1,10 @@
 <section class="experience-section">
   <div class="container text-center">
       <h1>{{ 'SKILLS.TITLE' | translate }}</h1>
-      <div class="timeline" data-aos="zoom-in">
+      <!-- <div class="timeline" data-aos="zoom-in" cdkDropList  (cdkDropListDropped)="drop($event)">
           <div class="timeline-component" data-aos="fade-up-right">
             <div class="timeline-date skill timeline-date--right">
-              <div class="skill-img">
+              <div class="skill-img" cdkDrag>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" />
               </div>
             </div>
@@ -13,8 +13,8 @@
             <div class="timeline-point"></div>
           </div>
           <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left">
-                <div class="skill-img">
+              <div class="timeline-date skill skill-left" cdkDrag>
+                <div class="skill-img" cdkDrag>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />
 
                 </div>
@@ -22,7 +22,7 @@
           </div>
           <div class="timeline-component" data-aos="fade-up-right">
               <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img">
+                <div class="skill-img" cdkDrag>
                   <img src="../../../../assets/imgs/express.svg" />
 
                 </div>
@@ -32,8 +32,8 @@
               <div class="timeline-point"></div>
           </div>
           <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left">
-                  <div class="skill-img">
+              <div class="timeline-date skill skill-left" cdkDrag>
+                  <div class="skill-img" cdkDrag>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
 
                   </div>
@@ -41,7 +41,7 @@
           </div>
           <div class="timeline-component" data-aos="fade-up-right">
               <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img">
+                <div class="skill-img" cdkDrag>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" />
                 </div>
             </div>
@@ -50,15 +50,15 @@
               <div class="timeline-point"></div>
           </div>
           <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left">
-                  <div class="skill-img">
+              <div class="timeline-date skill skill-left" cdkDrag>
+                  <div class="skill-img" cdkDrag>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg" />
                   </div>
               </div>
           </div>
           <div class="timeline-component" data-aos="fade-up-right">
               <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img">
+                <div class="skill-img" cdkDrag>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg" />
                 </div>
             </div>
@@ -67,15 +67,15 @@
               <div class="timeline-point"></div>
           </div>
           <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left">
-                  <div class="skill-img">
+              <div class="timeline-date skill skill-left" cdkDrag>
+                  <div class="skill-img" cdkDrag>
                     <img class="invert-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" />
                   </div>
               </div>
           </div>
           <div class="timeline-component" data-aos="fade-up-right">
               <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img">
+                <div class="skill-img" cdkDrag>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
                 </div>
             </div>
@@ -84,15 +84,15 @@
               <div class="timeline-point"></div>
           </div>
           <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left">
-                  <div class="skill-img">
+              <div class="timeline-date skill skill-left" cdkDrag>
+                  <div class="skill-img" cdkDrag>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" />
                   </div>
               </div>
           </div>
           <div class="timeline-component" data-aos="fade-up-right">
               <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img">
+                <div class="skill-img" cdkDrag>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
                 </div>
             </div>
@@ -101,8 +101,8 @@
               <div class="timeline-point"></div>
           </div>
           <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left">
-                  <div class="skill-img">
+              <div class="timeline-date skill skill-left" cdkDrag>
+                  <div class="skill-img" cdkDrag>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
 
                   </div>
@@ -110,7 +110,7 @@
           </div>
           <div class="timeline-component" data-aos="fade-up-right">
               <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img">
+                <div class="skill-img" cdkDrag>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
                 </div>
             </div>
@@ -119,8 +119,8 @@
               <div class="timeline-point"></div>
           </div>
           <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left">
-                  <div class="skill-img">
+              <div class="timeline-date skill skill-left" cdkDrag>
+                  <div class="skill-img" cdkDrag>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
 
                   </div>
@@ -128,7 +128,7 @@
           </div>
           <div class="timeline-component" data-aos="fade-up-right">
               <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img">
+                <div class="skill-img" cdkDrag>
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg" />
                 </div>
             </div>
@@ -137,15 +137,15 @@
               <div class="timeline-point"></div>
           </div>
           <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left">
-                  <div class="skill-img">
+              <div class="timeline-date skill skill-left" cdkDrag>
+                  <div class="skill-img" cdkDrag>
                       <img  class="invert-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
                   </div>
               </div>
           </div>
           <div class="timeline-component" data-aos="fade-up-right">
               <div class="timeline-date skill">
-                  <div class="skill-img">
+                  <div class="skill-img" cdkDrag>
                       <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg" />
                   </div>
               </div>
@@ -156,12 +156,36 @@
           </div>
           <div class="timeline-component" data-aos="fade-up-left">
               <div class="timeline-date skill-left">
-                  <div class="skill-img">
+                  <div class="skill-img" cdkDrag>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg" />
 
                   </div>
               </div>
           </div>
+      </div> -->
+
+
+      <div class="timeline" data-aos="zoom-in">
+        @for (item of timelineItems; track $index) {
+          <div *ngIf="item.type === 'component'" class="timeline-component" [attr.data-aos]="item.aos">
+            <div [ngClass]="{
+              'timeline-date skill': true, 
+              'timeline-date--right': item.position === 'right', 
+              'skill-left': item.position === 'left'
+            }">
+              <div class="skill-img" cdkDrag>
+                <img   [src]="item.imgSrc" [ngClass]="{'invert-image': item.invert}">
+              </div>
+            </div>
+          </div>
+          <div *ngIf="item.type === 'middle'" class="timeline-middle">
+            <div class="timeline-point"></div>
+            <div *ngIf="item.bottom" class="timeline-point timeline-point-bottom"></div>
+          </div>
+        }
+      
       </div>
+      
+      
   </div>
 </section>

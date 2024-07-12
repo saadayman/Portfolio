@@ -5,7 +5,7 @@ import { EducationComponent } from '../components/education/education.component'
 import { SkillsComponent } from '../components/skills/skills.component';
 import { ProjectsComponent } from '../components/projects/projects.component';
 import { TranslateService } from '@ngx-translate/core';
-import { LangDirectionService } from '../../globalServices/lang-direction.service';
+import { LangDirectionService } from '../../global/services/lang-direction.service';
 @Component({
   selector: 'app-home',
   standalone: true,

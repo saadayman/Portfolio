@@ -12,7 +12,6 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 })
 export class ProjectsComponent {
   constructor(public translateService:TranslateService){
-    console.log(this.translateService.currentLang)
   }
 
   ngOnInit(){
