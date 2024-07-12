@@ -16,3 +16,13 @@
    background-color:#0A58CA !important;
    
 }
+.ltr-important{
+    direction: ltr !important;
+}
+
+.container-fluid[dir="rtl"]{
+    justify-content: end;
+} 
+.btn-close{
+    color: white !important;
+}
