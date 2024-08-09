@@ -21,19 +21,19 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item " data-bs-dismiss="offcanvas" aria-label="Close">
-                <a class="nav-link px-2 active" aria-current="page" href="home#intro-section">{{ 'NAVBAR.ABOUT' | translate }}</a>
+                <a class="nav-link px-2 active"  aria-current="page" (click)="scrollIntoView('home#intro-section')" href="home#intro-section">{{ 'NAVBAR.ABOUT' | translate }}</a>
               </li>
               <li class="nav-item " data-bs-dismiss="offcanvas" aria-label="Close">
-                <a class="nav-link px-2" href="home#experience-section">{{ 'NAVBAR.EXPERIENCE' | translate }}</a>
+                <a class="nav-link px-2"  (click)="scrollIntoView('#experience-section')" href="home#experience-section">{{ 'NAVBAR.EXPERIENCE' | translate }}</a>
               </li>
               <li class="nav-item " data-bs-dismiss="offcanvas" aria-label="Close">
-                <a class="nav-link px-2" href="home#education">{{ 'NAVBAR.EDUCATION' | translate }}</a>
+                <a class="nav-link px-2" (click)="scrollIntoView('#education')"  href="home#education">{{ 'NAVBAR.EDUCATION' | translate }}</a>
               </li>
-              <li class="nav-item " data-bs-dismiss="offcanvas" aria-label="Close">
-                <a class="nav-link px-2" href="home#skills">{{ 'NAVBAR.SKILLS' | translate }}</a>
+              <li class="nav-item "  data-bs-dismiss="offcanvas"  aria-label="Close">
+                <a class="nav-link px-2"  (click)="scrollIntoView('#skills')" href="home#skills">{{ 'NAVBAR.SKILLS' | translate }}</a>
               </li>
-              <li class="nav-item " data-bs-dismiss="offcanvas" aria-label="Close">
-                <a class="nav-link px-2" href="home#projects">{{ 'NAVBAR.PROJECTS' | translate }}</a>
+              <li class="nav-item "   data-bs-dismiss="offcanvas" aria-label="Close">
+                <a class="nav-link px-2" (click)="scrollIntoView('#projects')"  href="home#projects">{{ 'NAVBAR.PROJECTS' | translate }}</a>
               </li>
             </ul>
           </div>

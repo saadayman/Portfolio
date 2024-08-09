@@ -22,4 +22,7 @@ export class HeaderComponent {
     this.langDirectionService.setDirection =language
     // localStorage.setItem('current-lang',lang)
   }
+  scrollIntoView(id:string){
+    document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'center'})
+  }
 }
