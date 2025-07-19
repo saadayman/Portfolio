@@ -17,18 +17,22 @@ import { FooterComponent } from './footer/footer.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  constructor(public title:Title,public translateService:TranslateService,public langDirectionService:LangDirectionService){
-    
-    afterNextRender(()=>{
-      AOS.init();//AOS - 2
-      console.log(this.langDirectionService.currentLanguage)
+  constructor(public title: Title, public translateService: TranslateService, public langDirectionService: LangDirectionService) {
 
+    // Set title immediately
+    this.title.setTitle('Saed Ayman');
+
+    afterNextRender(() => {
+      // Initialize language after render to avoid SSR issues
+      this.langDirectionService.initializeLanguage();
+
+      // Initialize AOS after render
+      AOS.init(); // AOS - 2
+      console.log('Current language:', this.langDirectionService.currentLanguage);
+      console.log('Language direction:', this.langDirectionService.language_direction);
 
       // AOS.refresh();//refresh method is called on window resize and so on, as it doesn't require to build new store with AOS elements and should be as light as possible.
-    })
-
-
-  this.title.setTitle('Saed Ayman')    
+    });
   }
 
 

@@ -16,11 +16,16 @@ import { LogoComponent } from '../global/components/logo/logo/logo.component';
 export class HeaderComponent {
   constructor(public translateService:TranslateService,public langDirectionService:LangDirectionService)
   {}
-  switchLanguage(lang:boolean) {
-    const language =  lang?'en':'ar'
+  switchLanguage(lang: boolean) {
+    const language = lang ? 'en' : 'ar';
     this.translateService.use(language);
-    this.langDirectionService.setDirection =language
-    // localStorage.setItem('current-lang',lang)
+    this.langDirectionService.setDirection = language;
+
+    // Force a small delay to ensure the language change is applied
+    setTimeout(() => {
+      console.log('Language switched to:', language);
+      console.log('Direction:', this.langDirectionService.language_direction);
+    }, 100);
   }
   scrollIntoView(id:string){
     document.getElementById(id)?.scrollIntoView({behavior:'smooth',block:'center'})

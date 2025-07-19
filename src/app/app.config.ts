@@ -12,11 +12,17 @@ export function HttpLoaderFactory(http: HttpClient) {
 }
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes), provideClientHydration(),provideHttpClient(withFetch()),importProvidersFrom(TranslateModule.forRoot({
-    loader:{
-      provide:TranslateLoader,
-      useFactory:HttpLoaderFactory,
-      deps:[HttpClient]
-    }
-  }))]
+  providers: [
+    provideRouter(routes),
+    provideClientHydration(),
+    provideHttpClient(withFetch()),
+    importProvidersFrom(TranslateModule.forRoot({
+      defaultLanguage: 'en',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    }))
+  ]
 };
