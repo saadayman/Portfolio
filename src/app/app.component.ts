@@ -8,7 +8,7 @@ import { Title } from '@angular/platform-browser';
 import { TranslateService } from '@ngx-translate/core';
 import { LangDirectionService } from './global/services/lang-direction.service';
 import { FooterComponent } from './footer/footer.component';
-
+import Clarity from '@microsoft/clarity';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -18,6 +18,7 @@ import { FooterComponent } from './footer/footer.component';
 })
 export class AppComponent {
   constructor(public title: Title, public translateService: TranslateService, public langDirectionService: LangDirectionService) {
+   const projectId = "skikxr7y99"
 
     // Set title immediately
     this.title.setTitle('Saed Ayman');
@@ -25,6 +26,8 @@ export class AppComponent {
     afterNextRender(() => {
       // Initialize language after render to avoid SSR issues
       this.langDirectionService.initializeLanguage();
+      Clarity.init(projectId);
+
 
       // Initialize AOS after render
       AOS.init(); // AOS - 2
