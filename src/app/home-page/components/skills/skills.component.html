@@ -1,191 +1,60 @@
 <section class="experience-section">
   <div class="container text-center">
       <h1>{{ 'SKILLS.TITLE' | translate }}</h1>
-      <!-- <div class="timeline" data-aos="zoom-in" cdkDropList  (cdkDropListDropped)="drop($event)">
-          <div class="timeline-component" data-aos="fade-up-right">
-            <div class="timeline-date skill timeline-date--right">
-              <div class="skill-img" cdkDrag>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" />
-              </div>
-            </div>
-          </div>
-          <div class="timeline-middle">
-            <div class="timeline-point"></div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left" cdkDrag>
-                <div class="skill-img" cdkDrag>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />
 
-                </div>
-            </div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-right">
-              <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img" cdkDrag>
-                  <img src="../../../../assets/imgs/express.svg" />
-
-                </div>
-            </div>
-          </div>
-          <div class="timeline-middle">
-              <div class="timeline-point"></div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left" cdkDrag>
-                  <div class="skill-img" cdkDrag>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" />
-
-                  </div>
-              </div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-right">
-              <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img" cdkDrag>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" />
-                </div>
-            </div>
-          </div>
-          <div class="timeline-middle">
-              <div class="timeline-point"></div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left" cdkDrag>
-                  <div class="skill-img" cdkDrag>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ionic/ionic-original.svg" />
-                  </div>
-              </div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-right">
-              <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img" cdkDrag>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg" />
-                </div>
-            </div>
-          </div>
-          <div class="timeline-middle">
-              <div class="timeline-point"></div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left" cdkDrag>
-                  <div class="skill-img" cdkDrag>
-                    <img class="invert-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" />
-                  </div>
-              </div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-right">
-              <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img" cdkDrag>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
-                </div>
-            </div>
-          </div>
-          <div class="timeline-middle">
-              <div class="timeline-point"></div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left" cdkDrag>
-                  <div class="skill-img" cdkDrag>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" />
-                  </div>
-              </div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-right">
-              <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img" cdkDrag>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-                </div>
-            </div>
-          </div>
-          <div class="timeline-middle">
-              <div class="timeline-point"></div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left" cdkDrag>
-                  <div class="skill-img" cdkDrag>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-
-                  </div>
-              </div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-right">
-              <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img" cdkDrag>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                </div>
-            </div>
-          </div>
-          <div class="timeline-middle">
-              <div class="timeline-point"></div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left" cdkDrag>
-                  <div class="skill-img" cdkDrag>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-
-                  </div>
-              </div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-right">
-              <div class="timeline-date skill timeline-date--right">
-                <div class="skill-img" cdkDrag>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg" />
-                </div>
-            </div>
-          </div>
-          <div class="timeline-middle">
-              <div class="timeline-point"></div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill skill-left" cdkDrag>
-                  <div class="skill-img" cdkDrag>
-                      <img  class="invert-image" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
-                  </div>
-              </div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-right">
-              <div class="timeline-date skill">
-                  <div class="skill-img" cdkDrag>
-                      <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg" />
-                  </div>
-              </div>
-          </div>
-          <div class="timeline-middle">
-              <div class="timeline-point"></div>
-              <div class="timeline-point timeline-point-bottom"></div>
-          </div>
-          <div class="timeline-component" data-aos="fade-up-left">
-              <div class="timeline-date skill-left">
-                  <div class="skill-img" cdkDrag>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg" />
-
-                  </div>
-              </div>
-          </div>
-      </div> -->
-
-
-      <div class="timeline" data-aos="zoom-in">
-        @for (item of timelineItems; track $index) {
-          <div *ngIf="item.type === 'component'" class="timeline-component" [attr.data-aos]="item.aos">
-            <div [ngClass]="{
-              'timeline-date skill': true, 
-              'timeline-date--right': item.position === 'right', 
-              'skill-left': item.position === 'left'
-            }">
+      <!-- Frontend Skills -->
+      <div class="skills-category" data-aos="fade-up">
+        <h3 class="category-title">
+          <i class="fa-solid fa-palette mx-2"></i>
+          Frontend Development
+        </h3>
+        <div class="skills-grid">
+          @for (skill of frontendSkills; track skill.name) {
+            <div class="skill-card" data-aos="zoom-in" [attr.data-aos-delay]="$index * 100">
               <div class="skill-img">
-                <img   [src]="item.imgSrc" [ngClass]="{'invert-image': item.invert}">
+                <img [src]="skill.imgSrc" [ngClass]="{'invert-image': skill.invert}" [alt]="skill.name">
               </div>
+              <p class="skill-name">{{ skill.name }}</p>
             </div>
-          </div>
-          <div *ngIf="item.type === 'middle'" class="timeline-middle">
-            <div class="timeline-point"></div>
-            <div *ngIf="item.bottom" class="timeline-point timeline-point-bottom"></div>
-          </div>
-        }
-      
+          }
+        </div>
       </div>
-      
-      
+
+      <!-- Backend Skills -->
+      <div class="skills-category" data-aos="fade-up">
+        <h3 class="category-title">
+          <i class="fa-solid fa-server mx-2"></i>
+          Backend Development
+        </h3>
+        <div class="skills-grid">
+          @for (skill of backendSkills; track skill.name) {
+            <div class="skill-card" data-aos="zoom-in" [attr.data-aos-delay]="$index * 100">
+              <div class="skill-img">
+                <img [src]="skill.imgSrc" [ngClass]="{'invert-image': skill.invert}" [alt]="skill.name">
+              </div>
+              <p class="skill-name">{{ skill.name }}</p>
+            </div>
+          }
+        </div>
+      </div>
+
+      <!-- Tools & DevOps -->
+      <div class="skills-category" data-aos="fade-up">
+        <h3 class="category-title">
+          <i class="fa-solid fa-tools mx-2"></i>
+          Tools & DevOps
+        </h3>
+        <div class="skills-grid">
+          @for (skill of toolsSkills; track skill.name) {
+            <div class="skill-card" data-aos="zoom-in" [attr.data-aos-delay]="$index * 100">
+              <div class="skill-img">
+                <img [src]="skill.imgSrc" [ngClass]="{'invert-image': skill.invert}" [alt]="skill.name">
+              </div>
+              <p class="skill-name">{{ skill.name }}</p>
+            </div>
+          }
+        </div>
+      </div>
+
   </div>
 </section>

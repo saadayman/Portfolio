@@ -3,41 +3,73 @@
       <h5>{{ 'EXPERIENCE.INTRO' | translate }}</h5>
       <h1 class="white-color">{{ 'EXPERIENCE.TITLE' | translate }}</h1>
       <div class="timeline" data-aos="zoom-in">
-          <div class="timeline-component"  data-aos="fade-up-right">
-            <div class="timeline-date timeline-date--right">{{ 'EXPERIENCE.NIXPEND.DATES' | translate }}</div>
-          </div>
-          <div class="timeline-middle">
-            <div class="timeline-point"></div>
-          </div>
-          <div class="timeline-component timeline-component--bg "  data-aos="fade-up-left">
-            <h2 class="timeline-title fs-6 fs-sm-5 fs-md-1 fs-lg-1 fs-xl-1"><i class="fa-solid fa-laptop fa-bounce mx-2"></i> {{ 'EXPERIENCE.NIXPEND.TITLE' | translate }}</h2>
-            <p class="company-name"><i class="fa-solid fa-building mx-2"></i> {{ 'EXPERIENCE.NIXPEND.COMPANY' | translate }}</p>
-            <ul class="text-align-left">
-              <li>{{ 'EXPERIENCE.NIXPEND.POINT1' | translate }}</li>
-              <li>{{ 'EXPERIENCE.NIXPEND.POINT2' | translate }}</li>
-              <li>{{ 'EXPERIENCE.NIXPEND.POINT3' | translate }}</li>
-            </ul>
-          </div>
-          <div class="timeline-component timeline-component--bg" data-aos="fade-up-right">
-            <h2 class="timeline-title fs-6 fs-sm-5 fs-md-1 fs-lg-1 fs-xl-1"><i class="fa-solid fa-person-chalkboard mx-2 fa-bounce"></i> {{ 'EXPERIENCE.EUREKA.TITLE' | translate }}</h2>
-            <p class="company-name"><i class="fa-solid fa-school mx-2"></i>  {{ 'EXPERIENCE.EUREKA.COMPANY' | translate }}</p>
-            <ul class="text-align-left">
-              <li>{{ 'EXPERIENCE.EUREKA.POINT1' | translate }}</li>
-              <li>{{ 'EXPERIENCE.EUREKA.POINT2' | translate }}</li>
-              <li>{{ 'EXPERIENCE.EUREKA.POINT3' | translate }}</li>
-              <li>{{ 'EXPERIENCE.EUREKA.POINT4' | translate }}</li>
-              <li>{{ 'EXPERIENCE.EUREKA.POINT5' | translate }}</li>
-              <li>{{ 'EXPERIENCE.EUREKA.POINT6' | translate }}</li>
-              <li>{{ 'EXPERIENCE.EUREKA.POINT7' | translate }}</li>
-            </ul>
-          </div>
-          <div class="timeline-middle">
-            <div class="timeline-point"></div>
-            <div class="timeline-point timeline-point-bottom"></div>  
-          </div>
-          <div class="timeline-component" data-aos="fade-up-left">
-            <div class="timeline-date">{{ 'EXPERIENCE.EUREKA.DATES' | translate }}</div>
-          </div>
+          @for (experience of experiences; track experience.id; let i = $index) {
+            @if (i % 2 === 0) {
+              <!-- Even index: Date on left, content on right -->
+              <div class="timeline-component" data-aos="fade-up-right">
+                <div class="timeline-date timeline-date--right">
+                  {{ experience.dates | translate }}
+                </div>
+              </div>
+              <div class="timeline-middle">
+                <div class="timeline-point"></div>
+                @if (i === experiences.length - 1) {
+                  <div class="timeline-point timeline-point-bottom"></div>
+                }
+              </div>
+              <div class="timeline-component timeline-component--bg" data-aos="fade-up-left">
+                <h2 class="timeline-title fs-6 fs-sm-5 fs-md-1 fs-lg-1 fs-xl-1">
+                  <i [class]="experience.icon + ' mx-2'"></i>
+                  {{ experience.title | translate }}
+                </h2>
+                <p class="company-name">
+                  <i [class]="experience.companyIcon + ' mx-2'"></i>
+                  {{ experience.company | translate }}
+                </p>
+                <p class="location">
+                  <i class="fa-solid fa-map-marker-alt mx-2"></i>
+                  {{ experience.location }}
+                </p>
+                <ul class="text-align-left">
+                  @for (point of experience.points; track point) {
+                    <li>{{ point | translate }}</li>
+                  }
+                </ul>
+              </div>
+            } @else {
+              <!-- Odd index: Content on left, date on right -->
+              <div class="timeline-component timeline-component--bg" data-aos="fade-up-right">
+                <h2 class="timeline-title fs-6 fs-sm-5 fs-md-1 fs-lg-1 fs-xl-1">
+                  <i [class]="experience.icon + ' mx-2'"></i>
+                  {{ experience.title | translate }}
+                </h2>
+                <p class="company-name">
+                  <i [class]="experience.companyIcon + ' mx-2'"></i>
+                  {{ experience.company | translate }}
+                </p>
+                <p class="location">
+                  <i class="fa-solid fa-map-marker-alt mx-2"></i>
+                  {{ experience.location }}
+                </p>
+                <ul class="text-align-left">
+                  @for (point of experience.points; track point) {
+                    <li>{{ point | translate }}</li>
+                  }
+                </ul>
+              </div>
+              <div class="timeline-middle">
+                <div class="timeline-point"></div>
+                @if (i === experiences.length - 1) {
+                  <div class="timeline-point timeline-point-bottom"></div>
+                }
+              </div>
+              <div class="timeline-component" data-aos="fade-up-left">
+                <div class="timeline-date">
+                  {{ experience.dates | translate }}
+                </div>
+              </div>
+            }
+          }
       </div>
   </div>
 </section>

@@ -18,7 +18,7 @@
 .timeline-component--bg {
   padding: 1.5em;
   background:#0A58CA;
-  
+
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
@@ -81,7 +81,6 @@ h1{
   .skill-img{
       margin: 0 0 0 auto;
       width: 70px;
-      cursor: move;
   }
   .skill:active{
     background-color: orange;
@@ -95,7 +94,84 @@ h1{
   .skill-img{
       margin: 0 auto 0 0;
       width: 70px;
-  }  
+  }
+}
+
+// New organized skills styles
+.skills-category {
+  margin: 3rem 0;
+
+  .category-title {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    i {
+      color: #0A58CA;
+    }
+  }
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+
+  &:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #0A58CA;
+    box-shadow: 0 8px 25px rgba(10, 88, 202, 0.3);
+  }
+
+  .skill-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+    }
+  }
+
+  .skill-name {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  &:hover .skill-img img {
+    transform: scale(1.1);
+  }
+}
+
+.invert-image {
+  filter: invert(1) brightness(2) contrast(10);
 }
 
 :host-context([dir="rtl"]) .timeline-date--right {
@@ -103,4 +179,49 @@ h1{
 }
 .invert-image {
   filter: invert(1) brightness(2) contrast(10);
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+  }
+
+  .skill-card {
+    padding: 1rem 0.5rem;
+
+    .skill-img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .skill-name {
+      font-size: 0.8rem;
+    }
+  }
+
+  .category-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .skill-card {
+    padding: 0.8rem 0.3rem;
+
+    .skill-img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .skill-name {
+      font-size: 0.7rem;
+    }
+  }
 }

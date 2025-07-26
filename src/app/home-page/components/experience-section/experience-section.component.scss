@@ -22,7 +22,7 @@ ul{
 .timeline-component--bg {
   padding: 1.5em;
   background:#0A58CA;
-  
+
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
@@ -66,6 +66,17 @@ ul{
 
 .timeline-paragraph {
   line-height: 1.5;
+}
+
+.company-name {
+  margin: 0.5em 0;
+  font-weight: 500;
+}
+
+.location {
+  margin: 0.5em 0;
+  font-size: 0.9em;
+  opacity: 0.9;
 }
 h1,h5{
   text-transform: uppercase;

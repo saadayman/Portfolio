@@ -26,8 +26,16 @@
     "EXPERIENCE": {
     "INTRO": "What I have done so far",
     "TITLE": "Work Experience",
+    "SEVERAL_BRAND": {
+      "DATES": "01/07/2025 - Present",
+      "TITLE": "Frontend Engineer",
+      "COMPANY": "Several Brand",
+      "POINT1": "Working on innovative software solutions for multiple brand management and digital transformation projects.",
+      "POINT2": "Collaborating with cross-functional teams to deliver high-quality frontend products and services.",
+      "POINT3": "Implementing modern development practices and technologies to enhance frontend performance and user experience."
+    },
     "NIXPEND": {
-      "DATES": "08/2022 to Current",
+      "DATES": "08/2022 to 07/2025",
       "TITLE": "Software Developer",
       "COMPANY": "Nixpend Company",
       "POINT1": "Successfully integrated the National Platform for Health Information Exchange System (NPHIES) APIs into our system, meeting rigorous compliance standards and obtaining the necessary certification for the company.",
@@ -71,4 +79,3 @@
     "TITLE": "Skills"
   }
   }
-  
