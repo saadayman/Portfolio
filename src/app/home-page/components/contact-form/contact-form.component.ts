@@ -65,7 +65,7 @@ export class ContactFormComponent {
       };
 
       // Call your backend API with timeout
-      this.http.post('http://localhost:3000/api/contact', messageData)
+      this.http.post('https://porto-backend.onrender.com/api/contact', messageData)
         .pipe(
           timeout(10000), // 10 second timeout
           catchError((error: HttpErrorResponse) => {
