@@ -4,12 +4,13 @@ import { ExperienceSectionComponent } from '../components/experience-section/exp
 import { EducationComponent } from '../components/education/education.component';
 import { SkillsComponent } from '../components/skills/skills.component';
 import { ProjectsComponent } from '../components/projects/projects.component';
+import { ContactFormComponent } from '../components/contact-form/contact-form.component';
 import { TranslateService } from '@ngx-translate/core';
 import { LangDirectionService } from '../../global/services/lang-direction.service';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [IntroComponent,ExperienceSectionComponent,EducationComponent,SkillsComponent,ProjectsComponent],
+  imports: [IntroComponent,ExperienceSectionComponent,EducationComponent,SkillsComponent,ProjectsComponent,ContactFormComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
   changeDetection:ChangeDetectionStrategy.OnPush

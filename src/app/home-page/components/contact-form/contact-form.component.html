@@ -1,0 +1,109 @@
+<section class="contact-section">
+  <div class="container text-center">
+    <h5>{{ 'CONTACT.INTRO' | translate }}</h5>
+    <h1 class="white-color">{{ 'CONTACT.TITLE' | translate }}</h1>
+    <p class="section-subtitle">{{ 'CONTACT.SUBTITLE' | translate }}</p>
+
+    <div class="contact-form-container">
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
+        <!-- Anonymous Option -->
+        <div class="form-group anonymous-option">
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="isAnonymous"
+              formControlName="isAnonymous"
+              class="anonymous-checkbox"
+            >
+            <label for="isAnonymous" class="checkbox-label">
+              <i class="fa-solid fa-user-secret"></i>
+              {{ 'CONTACT.ANONYMOUS_OPTION' | translate }}
+            </label>
+          </div>
+        </div>
+
+        <!-- Name and Email Fields (shown when not anonymous) -->
+        <div class="identity-fields" *ngIf="!isAnonymous">
+          <div class="form-group">
+            <label for="name">{{ 'CONTACT.NAME_LABEL' | translate }}</label>
+            <input
+              type="text"
+              id="name"
+              formControlName="name"
+              [class.error]="getFieldError('name')"
+              placeholder="{{ 'CONTACT.NAME_PLACEHOLDER' | translate }}"
+            >
+            <div class="error-message" *ngIf="getFieldError('name')">
+              {{ getFieldError('name') | translate }}
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">{{ 'CONTACT.EMAIL_LABEL' | translate }}</label>
+            <input
+              type="email"
+              id="email"
+              formControlName="email"
+              [class.error]="getFieldError('email')"
+              placeholder="{{ 'CONTACT.EMAIL_PLACEHOLDER' | translate }}"
+            >
+            <div class="error-message" *ngIf="getFieldError('email')">
+              {{ getFieldError('email') | translate }}
+            </div>
+          </div>
+        </div>
+
+        <!-- Message Field -->
+        <div class="form-group">
+          <label for="message">{{ 'CONTACT.MESSAGE_LABEL' | translate }}</label>
+          <textarea
+            id="message"
+            formControlName="message"
+            [class.error]="contactForm.get('message')?.invalid && contactForm.get('message')?.touched"
+            placeholder="{{ 'CONTACT.MESSAGE_PLACEHOLDER' | translate }}"
+            rows="6"
+          ></textarea>
+          <div class="error-message" *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched">
+            {{ 'CONTACT.MESSAGE_ERROR' | translate }}
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button
+            type="submit"
+            class="submit-btn"
+            [disabled]="isSubmitting() || contactForm.invalid"
+            [class.loading]="isSubmitting()"
+          >
+            <span *ngIf="!isSubmitting()">
+              <i class="fa-solid fa-paper-plane"></i>
+              {{ 'CONTACT.SEND_BUTTON' | translate }}
+            </span>
+            <span *ngIf="isSubmitting()">
+              <i class="fa-solid fa-spinner fa-spin"></i>
+              {{ 'CONTACT.SENDING' | translate }}
+            </span>
+          </button>
+
+          <button
+            type="button"
+            class="reset-btn"
+            (click)="resetForm()"
+            [disabled]="isSubmitting()"
+          >
+            <i class="fa-solid fa-rotate-left"></i>
+            {{ 'CONTACT.RESET_BUTTON' | translate }}
+          </button>
+        </div>
+
+        <div class="form-status" *ngIf="submitStatus !== 'idle'">
+          <div class="status-message" [ngClass]="submitStatus">
+            <i class="fa-solid" [class.fa-check-circle]="submitStatus === 'success'"
+               [class.fa-exclamation-circle]="submitStatus === 'error'"></i>
+            {{ submitMessage | translate }}
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

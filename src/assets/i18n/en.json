@@ -66,7 +66,8 @@
     "EXPERIENCE": "Experience",
     "EDUCATION": "Education",
     "SKILLS": "Skills",
-    "PROJECTS": "Projects"
+    "PROJECTS": "Projects",
+    "CONTACT": "Contact"
   },
   "EDUCATION": {
     "TITLE": "Education",
@@ -77,5 +78,32 @@
   },
   "SKILLS": {
     "TITLE": "Skills"
+  },
+  "CONTACT": {
+    "INTRO": "Send me a message",
+    "TITLE": "Contact Me",
+    "SUBTITLE": "Have something to say? Send me a message and I'll get back to you!",
+    "ANONYMOUS_OPTION": "Send anonymously",
+    "NAME_LABEL": "Your Name",
+    "NAME_PLACEHOLDER": "Enter your name",
+    "EMAIL_LABEL": "Your Email",
+    "EMAIL_PLACEHOLDER": "Enter your email address",
+    "MESSAGE_LABEL": "Your Message",
+    "MESSAGE_PLACEHOLDER": "Type your message here...",
+    "MESSAGE_ERROR": "Message must be at least 10 characters long",
+    "SEND_BUTTON": "Send Message",
+    "SENDING": "Sending...",
+    "RESET_BUTTON": "Reset",
+    "SUCCESS_MESSAGE": "Thank you! Your message has been sent successfully. I'll get back to you soon.",
+    "ERROR_MESSAGE": "Sorry, there was an error sending your message. Please try again later.",
+    "RATE_LIMIT_ERROR": "Too many requests. Please wait a few minutes before sending another message.",
+    "VALIDATION_ERROR": "Please check your message and try again.",
+    "NETWORK_ERROR": "Network error. Please check your internet connection and try again.",
+    "VALIDATION": {
+      "NAME_REQUIRED": "Name is required",
+      "NAME_MIN_LENGTH": "Name must be at least 2 characters",
+      "EMAIL_REQUIRED": "Email is required",
+      "EMAIL_INVALID": "Please enter a valid email address"
+    }
   }
   }

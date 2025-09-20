@@ -1,0 +1,43 @@
+<div class="loading-screen" [class.hidden]="!isVisible">
+  <div class="loading-container">
+    <!-- Logo/Name Section -->
+    <div class="logo-section">
+      <div class="logo-container">
+        <div class="logo-circle">
+          <span class="logo-text">SA</span>
+        </div>
+      </div>
+      <h1 class="portfolio-title">Saed Ayman</h1>
+      <p class="portfolio-subtitle">Full Stack Developer</p>
+    </div>
+
+    <!-- Loading Progress -->
+    <div class="loading-progress-section">
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-fill" [style.width.%]="loadingProgress"></div>
+        </div>
+        <div class="progress-text">{{ loadingText }}</div>
+        <div class="progress-percentage">{{ loadingProgress }}%</div>
+      </div>
+    </div>
+
+    <!-- Animated Elements -->
+    <div class="loading-animations">
+      <div class="floating-dots">
+        <div class="dot dot-1"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+        <div class="dot dot-4"></div>
+        <div class="dot dot-5"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Background Elements -->
+  <div class="background-elements">
+    <div class="bg-circle bg-circle-1"></div>
+    <div class="bg-circle bg-circle-2"></div>
+    <div class="bg-circle bg-circle-3"></div>
+  </div>
+</div>
