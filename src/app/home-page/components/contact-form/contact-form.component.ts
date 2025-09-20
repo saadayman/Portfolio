@@ -94,7 +94,9 @@ export class ContactFormComponent {
             if (response && response.success) {
               this.submitStatus = 'success';
               this.submitMessage = 'CONTACT.SUCCESS_MESSAGE';
-              this.contactForm.reset();
+              this.contactForm.reset({
+                isAnonymous: true,
+              });
             } else {
               this.submitStatus = 'error';
               this.submitMessage = response?.message || 'CONTACT.ERROR_MESSAGE';
